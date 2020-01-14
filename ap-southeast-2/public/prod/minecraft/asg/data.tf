@@ -8,7 +8,7 @@ data "aws_ami" "coreos" {
 
   filter {
     name   = "name"
-    values = ["coreos-stable-*"]
+    values = ["CoreOS-stable-*"]
   }
 
   filter {
